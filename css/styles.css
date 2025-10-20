@@ -1,26 +1,74 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+# - 37353E
+# - 44444E
+# - 715A5A
+# - D3DAD9
 */
 
+.roboto-robo-text {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background-color: #715A5A;
+    font-family:"Roboto", sans-serif;
+    font-size: 16px;
+
 }
+h1 {
+    font-size:44px;
 
+}
+h2 {
+    font-size:26px;
 
+}
+h3 {
+    font-size:18px;
+
+}
 /* Header & Footer 
 ------------------------------------*/
+#intro {
+    background-color: #37353E;
+    padding:5px;
+    color: snow;
+    font-family: "Roboto", sans-serif;
 
+}
+header {
+    background-color: #D3DAD9;
+    padding:10px;
+    font-family:"Roboto", sans-serif;
 
+}
+footer {
+    background-color: #715A5A;
+    padding:10px;
+    font-family:"Roboto", sans-serif;
+
+}
 
 /* Work Experience
 ------------------------------------*/
+#workexp {
+    background-color: #D3DAD9;
+    padding:10px;
+    font-family:"Roboto", sans-serif;
 
-
+}
 
 /* Education
 ------------------------------------*/
+#edu {
+    background-color: #D3DAD9;
+    padding:10px;
+    font-family:"Roboto", sans-serif;
+
+}
